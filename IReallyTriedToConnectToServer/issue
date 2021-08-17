@@ -1,0 +1,20 @@
+It gave me:
+
+Output:
+
+C:\glassfish-5.0.1\glassfish5\glassfish\bin\asadmin.bat start-domain domain1
+"C:\Program Files\Java\jdk1.8.0_301\bin\java.exe" -Dfile.encoding=windows-1251 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\lib\idea_rt.jar" com.intellij.rt.execution.CommandLineWrapper C:\Users\Acer\AppData\Local\Temp\idea_classpath304116739 com.intellij.javaee.oss.process.JavaeeProcess 64594 com.intellij.javaee.oss.glassfish.agent.Glassfish51Agent
+[2021-08-17 10:26:53,269] Artifact MyWebserviceProject:Web exploded: Waiting for server connection to start artifact deployment...
+Detected server admin port: 4848
+Detected server http port: 8080
+Attempting to start domain1.... Please look at the server log for more details.....
+C:\glassfish-5.0.1\glassfish5\glassfish\bin\asadmin.bat stop-domain domain1
+
+Process finished with exit code 0
+Waiting for the domain to stop .
+Command stop-domain executed successfully.
+
+Event log:
+
+Application Server was not connected before run configuration stop, reason:
+com.intellij.javaee.process.common.WrappedException: java.io.IOException: com.sun.enterprise.admin.remote.RemoteFailureException: Exception while processing command: javax.security.auth.login.LoginException
